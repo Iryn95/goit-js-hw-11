@@ -38,3 +38,33 @@ https://user-images.githubusercontent.com/17479434/125040406-49a6f600-e0a0-11eb-
 - ```downloads``` - количество загрузок.
 - 
 Если бэкенд возвращает пустой массив, значит ничего подходящего найдено небыло. В таком случае показывай уведомление с текстом ```"Sorry, there are no images matching your search query. Please try again."```. Для уведомлений используй библиотеку [notiflix](https://github.com/notiflix/Notiflix#readme).
+## Галерея и карточка изображения
+Элемент ```div.gallery``` изначально есть в HTML документе, и в него необходимо рендерить разметку карточек изображений. При поиске по новому ключевому слову необходимо полностью очищать содержимое галереи, чтобы не смешивать результаты.
+
+```<div class="gallery">
+  <!-- Карточки изображений -->
+</div>
+```
+
+Шаблон разметки карточки одного изображения для галереи.
+
+```<div class="photo-card">
+  <img src="" alt="" loading="lazy" />
+  <div class="info">
+    <p class="info-item">
+      <b>Likes</b>
+    </p>
+    <p class="info-item">
+      <b>Views</b>
+    </p>
+    <p class="info-item">
+      <b>Comments</b>
+    </p>
+    <p class="info-item">
+      <b>Downloads</b>
+    </p>
+  </div>
+</div>
+```
+
+
