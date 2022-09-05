@@ -1,12 +1,14 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 
+
+
 .photo-card:not(:last-child) {
     margin-right: 10px;
 }
 
 .is-hidden {
-position: absolute;
+    position: absolute;
     white-space: nowrap;
     width: 1px;
     height: 1px;
@@ -24,6 +26,11 @@ body {
     padding-top: 90px;
 }
 .search-container {
+    max-width: 100%;;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     top: 0;
     width: 100%;
@@ -31,9 +38,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(102, 128, 0);
-    padding: 10px;
-    margin-bottom: 20px;
+    // background-color: purple;
+    background-image: linear-gradient(to top,
+    #d2fffc,
+    #00b4ff);;
+    // padding: 10px;
+    // margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+    margin-bottom: 10px;
     
 }
 

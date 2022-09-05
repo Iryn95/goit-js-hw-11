@@ -6,6 +6,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { createGalleryMarkup } from './partials/createGalleryMarkup';
 import { fetchImages } from './partials/fetchImages';
 import { displayGalleryOnPage } from './partials/displayGalleryOnPage';
+import {infiniteScroll} from "infinite-scroll";
 
 let lightbox = new SimpleLightbox('.gallery a');
 
