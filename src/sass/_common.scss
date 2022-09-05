@@ -17,20 +17,29 @@
     padding: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    margin: -1px;
+    margin: -1px; 
+    
+}
+
+button {
+    border-radius: 10px;
+    background-color: white;
+   
 }
 
 body {
     position: relative;
     width: 100%;
     padding-top: 90px;
+    
+    
 }
 .search-container {
-    max-width: 100%;;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    // max-width: 100%;
+    // padding-left: 15px;
+    // padding-right: 15px;
+    // margin-left: auto;
+    // margin-right: auto;
     position: fixed;
     top: 0;
     width: 100%;
@@ -44,10 +53,13 @@ body {
     #00b4ff);;
     // padding: 10px;
     // margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
     height: 80px;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
+    line-height: 1.5;
+   
+    
     
 }
 
@@ -61,6 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     // flex-wrap: wrap;
+    
 }
 
 .info-item {
